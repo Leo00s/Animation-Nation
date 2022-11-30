@@ -1,0 +1,23 @@
+@keyframes example {
+  from {
+    width: 100%;
+    background-color: orange;
+  }
+  to {
+    width: 10%;
+    background-color: bisque;
+  }
+}
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
